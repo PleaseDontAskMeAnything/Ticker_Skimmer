@@ -1,7 +1,3 @@
-API_KEY = 'N0S5V6XH9YKW23T6'
-CLIENT_ID = 'LMXCtFfIUakbNrNBX4kaGA'
-CLIENT_SECRET = 'TPYKWpHM03HyKyYU3LNiXsU_UvICZA'
-
 watchlist = {
     # 🔹 Big Tech & AI
     "AAPL", "MSFT", "GOOGL", "AMZN", "META", "TSLA", "NVDA", "IBM", "ORCL",
@@ -50,4 +46,19 @@ watchlist = {
     "RIO",  # Rio Tinto (Metals & Mining)
     "NEM",  # Newmont (Gold Mining)
     "FCX",  # Freeport-McMoRan (Copper & Gold)
+    
+    # 🔹 Popular on r/WallStreetBets
+    "GME",  # GameStop
+    "AMC",  # AMC Entertainment
+    "BBBY",  # Bed Bath & Beyond
+    "SPCE",  # Virgin Galactic
+    "PLTR",  # Palantir Technologies
+    "SOFI",  # SoFi Technologies
+    "TLRY",  # Tilray
+    "MSTR",  # MicroStrategy
+    "RKLB",  # Rocket Lab
+    "LUNR"   # Intuitive Machines
 }
+
+
+ticker_count = {}
