@@ -29,24 +29,25 @@ def get_historic_data(symbol):
 
 def get_posts():
     subreddit = reddit.subreddit('wallstreetbets')
-    results = []
 
     for post in subreddit.hot(limit=1000):
         tickers_found = []
         post_date = datetime.fromtimestamp(post.created_utc, tz=timezone.utc).strftime('%Y-%m-%d %H:%M:%S')
         #print(f"Title: {post.title}")
         title = post.title
-        title = title.split()
+        title_split = title.split()
+        titles = []
         upvotes = post.score
-        for token in title:
+        for token in title_split:
             if token.startswith('$'):
                 token = token[1:]
             if token in watchlist:
                 tickers_found.append(token)
                 if token not in ticker_count:
-                    ticker_count[token] = {"Ticker": token, "Post_Date": post_date, "Mentions": 1, "Upvotes": upvotes, "Likes_per_mention": 0}
+                    ticker_count[token] = {"Ticker": token, "Title": [title], "Post_Date": post_date, "Mentions": 1, "Upvotes": upvotes, "Likes_per_mention": 0}
                 else:
                     ticker_count[token]["Mentions"] += 1
+                    ticker_count[token]["Title"].append(title)
 
     for ticker in ticker_count:
         mentions = ticker_count[ticker]["Mentions"]
