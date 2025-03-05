@@ -59,3 +59,6 @@ watchlist = {
     "RKLB",  # Rocket Lab
     "LUNR"   # Intuitive Machines
 }
+
+
+ticker_count = {}

@@ -1,16 +1,7 @@
 
 
-# Reddit API credentials
-CLIENT_ID = "vMsQfglqWPqZ1NtCCJD2Fw"
-CLIENT_SECRET = "4wrt_K_YthAcWK2-ePQOjJHm7ebqZw"
+CLIENT_ID = 'LMXCtFfIUakbNrNBX4kaGA'
+CLIENT_SECRET = 'TPYKWpHM03HyKyYU3LNiXsU_UvICZA'
 
-# Alpha Vantage API key
-API_KEY = "6T9R1LCWHVS88CHT"
 
-# Watchlist of ticker symbols to track
-watchlist = [
-    # All your tickers as shown above
-]
-
-# Dictionary to keep track of ticker counts
-ticker_count = {}
+API_KEY = 'N0S5V6XH9YKW23T6'
