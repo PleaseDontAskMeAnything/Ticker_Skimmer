@@ -1,0 +1,8 @@
+report_time: 2025-03-06 10:55:35
+run_duration: 0:00:34.622853
+tickers_tracked: 11
+total_executions: 34
+total_predictions: 0
+optimization_candidates: 0
+optimization_events: 0
+thresholds: {'execution_time': 100, 'accuracy_drop': 0.05}
