@@ -381,6 +381,13 @@ class TickerAnalyzer:
                 predicted_price = "N/A"
                 predicted_change = "N/A"
                 
+            # Safely format confidence value
+            confidence_value = p.get('confidence', 'N/A')
+            if isinstance(confidence_value, (int, float)):
+                confidence_display = f"{confidence_value:.2f}"
+            else:
+                confidence_display = "N/A"
+                
             # Add row to table
             html_report += f"""
                 <tr>
@@ -388,7 +395,7 @@ class TickerAnalyzer:
                     <td>{current_price}</td>
                     <td>{predicted_change}</td>
                     <td>{predicted_price}</td>
-                    <td>{p.get('confidence', 'N/A'):.2f if isinstance(p.get('confidence', 'N/A'), (int, float)) else 'N/A'}</td>
+                    <td>{confidence_display}</td>
                     <td>{p.get('market_condition', 'N/A')}</td>
                 </tr>
             """

@@ -1,0 +1,102 @@
+[
+    {
+        "ticker": "SPY",
+        "prediction": {
+            "price_change_prediction": 0.03643462938687832,
+            "confidence": 0.36434629386878314,
+            "market_condition": "neutral",
+            "current_price": 583.06,
+            "predicted_price": 604.3035750103131
+        }
+    },
+    {
+        "ticker": "NVDA",
+        "prediction": {
+            "price_change_prediction": 0.038479824637734125,
+            "confidence": 0.3847982463773413,
+            "market_condition": "neutral",
+            "current_price": 117.3,
+            "predicted_price": 121.8136834300062
+        }
+    },
+    {
+        "ticker": "TSLA",
+        "prediction": {
+            "price_change_prediction": 0.03684610541765657,
+            "confidence": 0.3684610541765657,
+            "market_condition": "neutral",
+            "current_price": 279.1,
+            "predicted_price": 289.38374802206795
+        }
+    },
+    {
+        "ticker": "MSTR",
+        "prediction": {
+            "price_change_prediction": 0.03219294441900356,
+            "confidence": 0.3219294441900356,
+            "market_condition": "neutral",
+            "current_price": 308.55,
+            "predicted_price": 318.4831330004836
+        }
+    },
+    {
+        "ticker": "QQQ",
+        "prediction": {
+            "price_change_prediction": 0.03373332273553991,
+            "confidence": 0.33733322735539906,
+            "market_condition": "neutral",
+            "current_price": 502.01,
+            "predicted_price": 518.9444653464684
+        }
+    },
+    {
+        "ticker": "AMD",
+        "prediction": {
+            "price_change_prediction": 0.018085392765871348,
+            "confidence": 0.18085392765871347,
+            "market_condition": "neutral",
+            "current_price": 101.67,
+            "predicted_price": 103.50874188250613
+        }
+    },
+    {
+        "ticker": "RKLB",
+        "prediction": {
+            "price_change_prediction": 0.016866028620967782,
+            "confidence": 0.16866028620967782,
+            "market_condition": "neutral",
+            "current_price": 20.4,
+            "predicted_price": 20.744066983867743
+        }
+    },
+    {
+        "ticker": "RIVN",
+        "prediction": {
+            "price_change_prediction": 0.03174161387435115,
+            "confidence": 0.3174161387435115,
+            "market_condition": "neutral",
+            "current_price": 11.42,
+            "predicted_price": 11.78248923044509
+        }
+    },
+    {
+        "ticker": "LLY",
+        "prediction": {
+            "price_change_prediction": 0.02221312966787826,
+            "confidence": 0.2221312966787826,
+            "market_condition": "neutral",
+            "current_price": 929.72,
+            "predicted_price": 950.3719909148198
+        }
+    },
+    {
+        "ticker": "GOOGL",
+        "prediction": {
+            "price_change_prediction": 0.022377819269616774,
+            "confidence": 0.22377819269616772,
+            "market_condition": "neutral",
+            "current_price": 173.02,
+            "predicted_price": 176.8918102900291
+        }
+    }
+]
