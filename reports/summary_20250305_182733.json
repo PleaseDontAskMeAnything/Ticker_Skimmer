@@ -1,0 +1,13 @@
+{
+    "report_time": "2025-03-05 18:27:33",
+    "run_duration": "0:00:11.936820",
+    "tickers_tracked": 13,
+    "total_executions": 60,
+    "total_predictions": 0,
+    "optimization_candidates": 0,
+    "optimization_events": 0,
+    "thresholds": {
+        "execution_time": 100,
+        "accuracy_drop": 0.05
+    }
+}

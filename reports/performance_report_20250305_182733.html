@@ -1,0 +1,54 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>Ticker Skimmer Performance Report</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; }
+                h1, h2, h3 { color: #333366; }
+                table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }
+                th, td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; }
+                th { background-color: #f2f2f2; }
+                tr:hover { background-color: #f5f5f5; }
+                .card { border: 1px solid #ddd; border-radius: 5px; padding: 15px; margin-bottom: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+                .card h3 { margin-top: 0; border-bottom: 1px solid #eee; padding-bottom: 10px; }
+                .flex-container { display: flex; flex-wrap: wrap; gap: 20px; }
+                .flex-item { flex: 1; min-width: 300px; }
+                .metric-value { font-size: 24px; font-weight: bold; color: #333366; }
+                .good { color: green; }
+                .warning { color: orange; }
+                .critical { color: red; }
+                img { max-width: 100%; height: auto; border: 1px solid #ddd; }
+            </style>
+        </head>
+        <body>
+            <h1>Ticker Skimmer Performance Report</h1>
+            <p>Generated on: 2025-03-05 18:27:33</p>
+            
+            <div class="flex-container">
+                <div class="flex-item card">
+                    <h3>Run Summary</h3>
+                    <p><strong>Duration:</strong> 0:00:11.936820</p>
+                    <p><strong>Tickers Tracked:</strong> <span class="metric-value">13</span></p>
+                    <p><strong>Total Executions:</strong> 60</p>
+                    <p><strong>Total Predictions:</strong> 0</p>
+                </div>
+                
+                <div class="flex-item card">
+                    <h3>Optimization Summary</h3>
+                    <p><strong>Candidates for Optimization:</strong> <span class="metric-value good">0</span></p>
+                    <p><strong>Optimization Events:</strong> <span class="metric-value good">0</span></p>
+                    <p><strong>Execution Time Threshold:</strong> 100 ms</p>
+                    <p><strong>Accuracy Drop Threshold:</strong> 5.0%</p>
+                </div>
+            </div>
+        
+            <h2>Execution Performance</h2>
+            <div class="card">
+                <h3>Execution Time by Ticker</h3>
+                <img src="execution_time_20250305_182733.png" alt="Execution Time Chart">
+            </div>
+        
+        </body>
+        </html>
+        
