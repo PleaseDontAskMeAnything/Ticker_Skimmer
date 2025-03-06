@@ -1,0 +1,7 @@
+report_time: 2025-03-06 10:56:01
+tickers_analyzed: 11
+total_mentions: 70
+most_mentioned: SPY
+most_mentioned_count: 20
+most_positive: MCD
+most_negative: AMD

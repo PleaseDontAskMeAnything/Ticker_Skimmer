@@ -8,6 +8,7 @@ from datetime import datetime, timedelta
 import requests
 from functools import lru_cache
 from jit_engine import JITEngine, jit_optimized
+import gradio as gr
 
 class AdaptivePredictionModel:
     """
