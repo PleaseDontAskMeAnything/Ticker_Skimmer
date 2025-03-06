@@ -54,7 +54,7 @@ ticker_skimmer/
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/ticker_skimmer.git
+   git clone https://github.com/PleaseDontAskMeAnything/Ticker_Skimmer.git
    cd ticker_skimmer
    ```
 
