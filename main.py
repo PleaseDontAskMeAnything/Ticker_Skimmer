@@ -26,7 +26,7 @@ def parse_arguments():
     
     parser.add_argument('--batch', type=int, default=100,
                         help='Batch size for processing (default: 100)')
-    
+
     parser.add_argument('--market', type=str, default='neutral', 
                         choices=['neutral', 'bullish', 'bearish', 'volatile'],
                         help='Market condition for predictions (default: neutral)')

@@ -1,0 +1,7 @@
+report_time: 2025-03-07 13:23:44
+tickers_analyzed: 14
+total_mentions: 63
+most_mentioned: SPY
+most_mentioned_count: 17
+most_positive: MCD
+most_negative: RKLB

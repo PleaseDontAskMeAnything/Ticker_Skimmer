@@ -410,3 +410,4 @@ with gr.Blocks(title="Ticker Skimmer", theme=gr.themes.Soft()) as app:
 
 if __name__ == "__main__":
     app.launch(share=True)
+                                                
